@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CV File Format Converter",
-  description: "Convert CV files to a standardized format",
+  title: "Resume Transformer",
+  description: "Easily convert and standardize your resume files",
 };
 
 export default function RootLayout({
