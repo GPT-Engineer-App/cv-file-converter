@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Resume Transformer",
-  description: "Transform and standardize your resume files effortlessly",
+  title: "CV File Format Converter",
+  description: "Convert CV files to a standardized format",
 };
 
 export default function RootLayout({
@@ -19,8 +19,8 @@ export default function RootLayout({
       <body className={`${inter.className} flex`}>
         <aside className="w-64 bg-gray-900 text-white p-4">
           <div className="flex items-center mb-8">
-            <img src="/new-logo.png" alt="Resume Transformer" className="h-8 w-8 mr-2" />
-            <span className="text-xl font-bold">Resume Transformer</span>
+            <img src="/logo.png" alt="Jovi Konsult AB" className="h-8 w-8 mr-2" />
+            <span className="text-xl font-bold">Jovi Konsult AB</span>
           </div>
           <nav>
             <ul>
